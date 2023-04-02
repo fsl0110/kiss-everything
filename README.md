@@ -1,3 +1,5 @@
-For me just a way to explain everything important. Is this art?
+For me just a way to explain everything important.
 
-https://heroic-puffpuff-b33b9e.netlify.app/
+Is this art?
+
+[kiss-everything.world](https://kiss-everything.world)
