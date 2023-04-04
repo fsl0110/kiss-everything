@@ -1,0 +1,6 @@
+- licensed by everything
+- commercial use obligates to share revenue with everything
+- handle with care to avoid conflicts with your subconscious
+- made with love, sorrow and happiness
+- made for me, you, everyone and everything
+- thanks for help to everything
