@@ -13,10 +13,8 @@ const image = "/everything-everywhere-allatonce.png";
     <meta name="description" content="Everyone Everywhere Alltogether" />
   </head>
   <body>
-    <div>
-      <Connection />
-    </div>
-    <img src={image} />
+    <Connection />
+    <img src={image} width="200" height="200" />
   </body>
 </html>
 
@@ -26,11 +24,6 @@ const image = "/everything-everywhere-allatonce.png";
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-
-  div {
-    position: absolute;
-    top: 20px;
-    right: 20px;
+    font-family: helvetica, sans-serif;
   }
 </style>
