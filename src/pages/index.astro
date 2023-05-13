@@ -1,6 +1,6 @@
 ---
-import Connection from "../components/Connection.astro";
-const image = "/everything-everywhere-allatonce.png";
+import Tooltip from "../components/Tooltip.astro";
+const image = "/everything.png";
 ---
 
 <html lang="en">
@@ -9,19 +9,20 @@ const image = "/everything-everywhere-allatonce.png";
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>Everything Everywhere All At Once</title>
-    <meta name="description" content="Everyone Everywhere Alltogether" />
+    <title>Everything</title>
+    <meta name="description" content="Everything Everywhere All At Once" />
   </head>
   <body>
-    <!--     <Connection /> -->
-    <a href="http://kiss-one.world" title="one world">
-      <img
-        src={image}
-        width="200"
-        height="200"
-        title="everything everywhere all at once"
-      />
-    </a>
+    <Tooltip content="Everything = One">
+      <a href="http://kiss-one.world" title="KISS One">
+        <img
+          src={image}
+          width="200"
+          height="200"
+          title="Everything Everywhere All At Once"
+        />
+      </a>
+    </Tooltip>
   </body>
 </html>
 

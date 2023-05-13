@@ -2,9 +2,11 @@ lockfileVersion: 5.4
 
 specifiers:
   astro: ^2.1.8
+  tippy.js: ^6.3.7
 
 dependencies:
   astro: 2.1.8
+  tippy.js: 6.3.7
 
 packages:
 
@@ -612,6 +614,10 @@ packages:
       picocolors: 1.0.0
       tiny-glob: 0.2.9
       tslib: 2.5.0
+    dev: false
+
+  /@popperjs/core/2.11.7:
+    resolution: {integrity: sha512-Cr4OjIkipTtcXKjAsm8agyleBuDHvxzeBoa1v543lbv1YaIwQjESsVcmjiWiPEbC1FIeHOG/Op9kdCmAmiS3Kw==}
     dev: false
 
   /@types/babel__core/7.20.0:
@@ -2656,6 +2662,12 @@ packages:
     dependencies:
       globalyzer: 0.1.0
       globrex: 0.1.2
+    dev: false
+
+  /tippy.js/6.3.7:
+    resolution: {integrity: sha512-E1d3oP2emgJ9dRQZdf3Kkn0qJgI6ZLpyS5z6ZkY1DF3kaQaBsGZsndEpHwx+eC+tYM41HaSNvNtLx8tU57FzTQ==}
+    dependencies:
+      '@popperjs/core': 2.11.7
     dev: false
 
   /to-fast-properties/2.0.0:
